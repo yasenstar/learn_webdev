@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="node_modules/d3/dist/d3.min.js"></script>
+    </head>
+    <body>
+        <div id="someDiv" style="width:200px;height:200px;border:black 1px solid;background: red">
+        <input id="someCheckbox" type="checkbox" />
+        </div>
+        <script>
+            d3.select("#someDiv").style("border", "5px darkgray dashed");
+            d3.select("#someDiv").attr("id", "newID");
+            d3.select("#someCheckbox").property("checked", true);
+            d3.select("div").style("background", "lightblue").style("border", "solid black 1px").html("You have now dynamically changed the content of a web page element");
+        </script>
+    </body>
+</html>

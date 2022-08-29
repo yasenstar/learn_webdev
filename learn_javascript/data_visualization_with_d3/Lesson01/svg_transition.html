@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SVG Animations using CSS transitions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                margin: 50px;
+                overflow: hidden
+            }
+            rect {
+                stroke: black;
+                fill: grey;
+                stroke-width: 20px;
+                /*transition: fill 3000ms, stoke-width 3000ms; */
+                transition: all 3000ms
+            }
+            rect:hover {
+                stroke: red;
+                fill: green;
+                stroke-width: 200px;
+            }
+        </style>>
+    </head>
+    <body>
+        <svg width="960" height="500">
+            <rect x="250" y="100" width="500" height="250"></rect>
+        </svg>
+    </body>
+</html>

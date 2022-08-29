@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Zhao Xiaoqi -- Enterprise Architect -- <twitter>
+
+    Xiaoqi.com(京ICP备17027001号)
+
+# THANKS
+
+    Zhao Xiaoqi
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
