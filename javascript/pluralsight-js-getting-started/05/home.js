@@ -1,11 +1,8 @@
+// showMessage(price);
 
-let welcome = 'Welcome';
+function getSecretCode(value) {
+    let code = value *42;
+    return code;
+}
 
-let price = 125;
-
-let discounted = false
-
-price = 88;
-
-showMessage(price);
-console.log(price);
+console.log(getSecretCode(4));
