@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>Hello Everyone! Here is React.</h1>, document.getElementById("root"))

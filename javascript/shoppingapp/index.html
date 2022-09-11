@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Grocery App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A Progressive shopping app with HTML CSS and Javascript">
+        <link herf="https://fonts.googleapis.com/css2?family=Karla&amp;display=sway" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="manifest" href="./manifest.json">
+        <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./sw.js');
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1 class="heading animate__animat3ed animate__bounceInRight">
+                Shopping Made Easy With Grocery App
+            </h1>
+            <p class="paragraph">
+                Grocery App helps you to organizae and priotize your list and keep them on track
+            </p>
+        </header>
+
+        <main class="main-section" id="">
+
+            <section class="item-section">
+                <!--========== Add item input section ==========-->
+
+                <div id="createNewListDiv">
+                    <form id="itemInput">
+                        <label>
+                            <input type="text" id="nameInput" required placeholder="Name of Item">
+                        </label>
+                        <label>
+                            <input type="number" id="quantityInput" placeholder="Quantity">
+                        </label>
+                        <label>
+                            <input type="number" id="priceInput" placeholder="Price">
+                        </label>
+                        <button type="submit" id="addItemButton">
+                            <span class="plus-sign"></span>
+                            Create List
+                        </button>
+                    </form>
+                </div>
+
+                <!--========== End of add item section ==========-->
+
+                <!--========== Delete item section ==========-->
+                <section>
+                    <div class="itemContainer">
+                        <!-- new item section -->
+                        <div id="newItemDiv"></div>
+                        <!-- delete all items -->
+                        <div class="deleteItemContainer">
+                            <button id="deleteAllBtn" onClick="deleteAllItem()">
+                                Delete all Items
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!--========== End of Delete item section ==========-->
+
+                <!--========== total price of item section ==========-->
+                <section class="totalPriceSection">
+                    <div id="totalPriceDiv"></div>
+                </section>
+
+                <p class="Emilson">Made with YasenStar by Yasen</p>
+            </section>
+        </main>
+
+        <script srv="js/index.js"></script>
+    </body>
+</html>
