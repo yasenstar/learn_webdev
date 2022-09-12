@@ -1,8 +1,11 @@
-// showMessage(price);
+let person = {
+    name: 'yasen',
+    age: 4,
+    showInfo: function() {
+        showMessage(this.name + " is " + this.age);
+    }
+};
 
-function getSecretCode(value) {
-    let code = value *42;
-    return code;
-}
+person.showInfo();
 
-console.log(getSecretCode(4));
+//showMessage();
