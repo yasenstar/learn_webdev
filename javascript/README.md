@@ -1,9 +1,24 @@
 # learn_javascript
 
-starting from 2017/11/28:
-reading the book: 《JavaScript数据可视化编程》(Data Visualization with JavaScript)
-![Data Visualization with JavaScript](pics/data_visualization_with_javascript_cover.jpg)
+## Resources on JavaScript
 
-- 数据可视化是解决数据被浪费的重要工具。
-- 好的可视化追求的目标是让数据自身一目了然，让关注数据的人可以因此快速抓住数据的核心。
-- 如果把大数据处理技术比做加法，那么数据可视化就像是教你如何优雅地做减法。
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+T​hese resources provide some more in-depth information on the topics covered in this module.
+
+[Mozilla Developer Network Expressions and Operators ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+
+[Mozilla Developer Network Operator Precedence and Associativity ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
+[JavaScript Primitive Values ](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+
+[ECMA262 Specification ](https://tc39.es/ecma262/)
+
+[jQuery Official Website ](https://jquery.com/)
+
+[React Official Website ](https://reactjs.org/)
+
+[StackOverflow Developer Survey 2021 Most Popular Technologies](https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies)
+
+[Emojis](http://unicode.org/emoji/charts/full-emoji-list.html#1f600)
+
