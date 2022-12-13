@@ -1,13 +1,10 @@
-/* let js = "amazing";
-if (js === "amazing") alert("Javsscript is FUN!"); */
+let age = 16;
+// const isOldEnough = age >=18;
 
-console.log(40+8+23-10);
-
-let firstname = "Tom";
-console.log(firstname);
-
-let country = "China";
-let continent = "Asia";
-let population = 1300000000;
-
-console.log(country, continent, population);
+if (age > 18) {
+    console.log("eligible of driving");
+}
+else {
+    console.log(`still too young!
+    wait some more years!`);
+}
